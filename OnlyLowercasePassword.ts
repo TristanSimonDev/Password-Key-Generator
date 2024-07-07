@@ -11,3 +11,5 @@ for (let i = 1; i <= lenght; i++) {
 }
 
 console.log(Password)
+
+console.log(Password)
