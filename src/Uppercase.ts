@@ -1,11 +1,13 @@
+import * as json from "../Settings.json";
+
 (() => {
-    let lenght = 50;
+    let length = parseInt(json.Settings.length, 10);
     let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let quantity = 3;
+    let quantity = parseInt(json.Settings.quantity, 10);
 
     for (let i = 1; i <= quantity; i++) {
         let Password = "";
-        for (let j = 1; j <= lenght; j++) {
+        for (let j = 1; j <= length; j++) {
             let randomnum = Math.floor(Math.random() * chars.length);
             Password = Password.concat(chars[randomnum]);
         }
