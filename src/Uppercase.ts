@@ -1,9 +1,9 @@
-import * as json from "../Settings.json";
+import { Settings } from "../Settings.json";
 
 (() => {
-    let length = parseInt(json.Settings.length, 10);
+    let length = parseInt(Settings.length, 10);
     let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let quantity = parseInt(json.Settings.quantity, 10);
+    let quantity = parseInt(Settings.quantity, 10);
 
     for (let i = 1; i <= quantity; i++) {
         let Password = "";
