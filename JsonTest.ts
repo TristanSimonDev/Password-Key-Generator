@@ -1,0 +1,1 @@
+import * as json from './Settings.json'
