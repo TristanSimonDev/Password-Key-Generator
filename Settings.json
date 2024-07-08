@@ -1,6 +1,12 @@
 {
     "Settings": {
         "quantity": "5",
-        "length": "50"
+        "length": "50",
+        "chars": {
+            "lower": "abcdefghijklmnopqrstuvwxyz",
+            "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "num": "0123456789",
+            "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
+        }    
     }
 }
