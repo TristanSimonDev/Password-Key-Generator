@@ -1,4 +1,4 @@
-import { Settings } from  "../Settings.json";
+import { Settings } from  "../../Settings.json";
 
 
 (() => {

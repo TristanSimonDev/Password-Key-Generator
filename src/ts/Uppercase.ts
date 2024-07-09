@@ -1,5 +1,4 @@
-import { Settings } from "../Settings.json";
-
+import { Settings } from "../../Settings.json";
 (() => {
     let length = parseInt(Settings.length, 10);
     let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
