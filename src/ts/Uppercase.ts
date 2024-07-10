@@ -1,7 +1,7 @@
 import { Settings } from "../../Settings.json";
 (() => {
     let length = parseInt(Settings.length, 10);
-    let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let chars = Settings.chars.upper
     let quantity = parseInt(Settings.quantity, 10);
 
     for (let i = 1; i <= quantity; i++) {

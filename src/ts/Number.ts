@@ -2,7 +2,7 @@ import { Settings } from "../../Settings.json";
 
 (() => {
     let length = parseInt(Settings.length, 10);
-    let chars = "0123456789";
+    let chars = Settings.chars.num;
     let quantity = parseInt(Settings.quantity, 10);
 
     for (let i = 1; i <= quantity; i++) {
