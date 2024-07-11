@@ -12,8 +12,9 @@
             "KeySettings": {
                 "quantity": "5",
                 "length": "50",
-                "Symbols": {
-                    "dash": "-"
+                "SeparateSymbol": {
+                    "dash": "-",
+                    "colon": ":"
                 },
                 "chars": {
                     "lower": "abcdefghijklmnopqrstuvwxyz",
