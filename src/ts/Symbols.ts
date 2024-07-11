@@ -1,4 +1,5 @@
 import { Settings } from "../../Settings.json";
+
 (() => {
     let length = parseInt(Settings.length, 10);
     let chars = Settings.chars.sym
