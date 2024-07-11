@@ -1,12 +1,27 @@
 {
     "Settings": {
-        "quantity": "5",
-        "length": "50",
-        "chars": {
-            "lower": "abcdefghijklmnopqrstuvwxyz",
-            "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "num": "0123456789",
-            "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
-        }    
+        "PasswordSettings": {
+            "quantity": "5",
+            "length": "50",
+            "chars": {
+                "lower": "abcdefghijklmnopqrstuvwxyz",
+                "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "num": "0123456789",
+                "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
+            },
+            "KeySettings": {
+                "quantity": "5",
+                "length": "50",
+                "Symbols": {
+                    "dash": "-"
+                },
+                "chars": {
+                    "lower": "abcdefghijklmnopqrstuvwxyz",
+                    "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                    "num": "0123456789",
+                    "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
+                }
+            }
+        }
     }
 }
