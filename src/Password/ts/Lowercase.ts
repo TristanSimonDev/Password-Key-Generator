@@ -1,7 +1,7 @@
-import { Settings } from "../../Settings.json";
+import { Settings } from "../../../Settings.json";
 
 let length: number = <number>parseInt(Settings.PasswordSettings.length, 10);
-let chars: string = <string>Settings.PasswordSettings.chars.num;
+let chars: string = <string>Settings.PasswordSettings.chars.lower;
 let quantity: number = <number>parseInt(Settings.PasswordSettings.quantity, 10);
 
 let CreatePassword = (chars: string, length: number) => {
