@@ -1,4 +1,4 @@
-import { Settings } from "../../../Settings.json";
+import { Settings } from "../../../../Settings.json";
 
 let length: number = <number>parseInt(Settings.PasswordSettings.length, 10);
 let chars: string = <string>Settings.PasswordSettings.chars.sym;
