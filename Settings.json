@@ -8,20 +8,20 @@
                 "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                 "num": "0123456789",
                 "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
+            }
+        },
+        "KeySettings": {
+            "quantity": "5",
+            "length": "50",
+            "SeparateSymbol": {
+                "dash": "-",
+                "colon": ":"
             },
-            "KeySettings": {
-                "quantity": "5",
-                "length": "50",
-                "SeparateSymbol": {
-                    "dash": "-",
-                    "colon": ":"
-                },
-                "chars": {
-                    "lower": "abcdefghijklmnopqrstuvwxyz",
-                    "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                    "num": "0123456789",
-                    "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
-                }
+            "chars": {
+                "lower": "abcdefghijklmnopqrstuvwxyz",
+                "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                "num": "0123456789",
+                "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
             }
         }
     }
