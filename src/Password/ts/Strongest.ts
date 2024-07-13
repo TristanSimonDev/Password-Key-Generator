@@ -1,6 +1,6 @@
 import { Settings } from '../../../.vscode/Settings.json' //root json object
 
-//this will go to the chars in the json
+//this will go to the chars object in the json
 let CharSettings = Settings.PasswordSettings.chars
 
 let AllChars = Object.values(CharSettings).join('');
