@@ -1,4 +1,4 @@
-import { Settings } from "../../../../Settings.json";
+import { Settings } from '../../../../.vscode/Settings.json' //root json object
 
 let length= parseInt(Settings.PasswordSettings.length, 10);
 let chars= Settings.PasswordSettings.chars.sym + Settings.PasswordSettings.chars.lower;
