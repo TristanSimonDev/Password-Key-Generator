@@ -4,4 +4,5 @@ import { Settings } from '../../../Settings.json' //root json object
 let CharSettings = Settings.PasswordSettings.chars
 
 let AllChars = Object.values(CharSettings).join('');
- 
+const quantity = parseInt(Settings.PasswordSettings.quantity, 10)
+const length = parseInt(Settings.PasswordSettings.length)
