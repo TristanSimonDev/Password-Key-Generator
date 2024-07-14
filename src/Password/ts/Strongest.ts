@@ -3,9 +3,11 @@ import { Settings } from '../../../.vscode/Settings.json' //root json object
 //this will go to the chars object in the json
 let CharSettings = Settings.PasswordSettings.chars
 
-let AllChars = Object.values(CharSettings).join('');
-const quantity = parseInt(Settings.PasswordSettings.quantity, 10)
-const length = parseInt(Settings.PasswordSettings.length)
+let S = {
+    "AllChars": Object.values(CharSettings).join(''),
+    "length": parseInt(Settings.PasswordSettings.length),
+    "quantity": parseInt(Settings.PasswordSettings.quantity, 10)
+}
 
 let CreatePassword = (AllChars: string, length: number) => {
     let password = ""
@@ -16,6 +18,6 @@ let CreatePassword = (AllChars: string, length: number) => {
     console.log(password)
 }
 
-for (let i = 1; i <= quantity; i++) {
-    CreatePassword(AllChars, length)
+for (let i = 1; i <= S.quantity; i++) {
+    CreatePassword(S.AllChars, S.length)
 }
