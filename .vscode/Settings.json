@@ -20,7 +20,7 @@
             "chars": {
                 "lower": "abcdefghijklmnopqrstuvwxyz",
                 "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                "num": "0123456789",
+                "num": "0123456789"
             }
         }
     }
