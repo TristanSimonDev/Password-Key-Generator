@@ -21,7 +21,6 @@
                 "lower": "abcdefghijklmnopqrstuvwxyz",
                 "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                 "num": "0123456789",
-                "sym": "!#$%&'()*,-./:;<=>?@[\\]^_`{|}~"
             }
         }
     }
