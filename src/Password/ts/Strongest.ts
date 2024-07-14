@@ -16,4 +16,6 @@ let CreatePassword = (AllChars: string, length: number) => {
     console.log(password)
 }
 
-CreatePassword(AllChars, length)
+for (let i = 1; i <= quantity; i++) {
+    CreatePassword(AllChars, length)
+}
