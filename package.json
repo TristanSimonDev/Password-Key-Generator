@@ -6,23 +6,21 @@
     "scripts": {
         "Strongest": "ts-node src/Password/ts/Strongest.ts",
         "middle": "ts-node src/Password/ts/middle/Symbols-Numbers.ts && ts-node src/Password/ts/middle/Symbols-Lowercase.ts",
-        "easy": "ts-node src/Password/ts/easy/Lowercase.ts && ts-node src/Password/ts/easy/Number.ts && ts-node src/Password/ts/easy/Uppercase.ts && ts-node src/Password/ts/easy/Symbols.ts"
+        "easy": "ts-node src/Password/ts/easy/Lowercase && ts-node src/Password/ts/easy/Number.ts && ts-node src/Password/ts/easy/Uppercase.ts && ts-node src/Password/ts/easy/Symbols.ts"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/TristanSimonDev/Password-Key-Generator.git"
+        "type": "git",
+        "url": "git+https://github.com/TristanSimonDev/Password-Key-Generator.git"
     },
     "author": "Tristan | S.",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/TristanSimonDev/Password-Key-Generator/issues"
+        "url": "https://github.com/TristanSimonDev/Password-Key-Generator/issues"
     },
     "homepage": "https://github.com/TristanSimonDev/Password-Key-Generator#readme",
     "devDependencies": {
-      "ts-node": "^10.0.0",
-      "typescript": "^4.0.0",
-      "npm-run-all": "^4.1.5"
+        "ts-node": "^10.0.0",
+        "typescript": "^4.0.0",
+        "npm-run-all": "^4.1.5"
     }
-  }
-
-  
+}
