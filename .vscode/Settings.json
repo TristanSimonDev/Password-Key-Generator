@@ -12,8 +12,9 @@
         },
         "KeySettings": {
             "quantity": "5",
-            "length": "50",
-            "SeparateSymbol": {
+            "Charsbetweentrimm": "10",
+            "Segments": "10", 
+            "TrimmSymbols": {
                 "dash": "-",
                 "colon": ":"
             },
