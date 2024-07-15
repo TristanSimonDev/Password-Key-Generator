@@ -15,7 +15,7 @@ let CreateKey = (chars: string, Segments: number) => {
             j <= chatsbetweentrimm ? key = key.concat(chars[randomnum]) : key = key.concat(colon)
         }          
     }
-    key.endsWith("-") ? key = key.slice(0, -1) : null;
+    key.endsWith(colon) ? key = key.slice(0, -1) : null;
     console.log(`Key: ${key}`)   
 };
 
