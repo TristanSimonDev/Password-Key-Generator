@@ -19,7 +19,6 @@
                 "colon": ":"
             },
             "chars": {
-                "lower": "abcdefghijklmnopqrstuvwxyz",
                 "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                 "num": "0123456789"
             }
