@@ -10,7 +10,7 @@ let CreatePassword = (chars: string, length: number) => {
         let randomnum = Math.floor(Math.random() * chars.length);
         password = password.concat(chars[randomnum]);
     }
-    console.log(`Password: ${password}`);
+    console.log(`Average Symbols-Numbers: ${password}`);
 };
 
 for (let i = 1; i <= quantity; i++) {
