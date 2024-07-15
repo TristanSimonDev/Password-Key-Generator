@@ -1,7 +1,7 @@
 import { Settings } from '../../../../.vscode/Settings.json' //root json object
 
-let length= parseInt(Settings.PasswordSettings.length, 10);
-let chars= Settings.PasswordSettings.chars.upper + Settings.PasswordSettings.chars.num;
+let length = parseInt(Settings.PasswordSettings.length, 10);
+let chars = Settings.PasswordSettings.chars.upper + Settings.PasswordSettings.chars.num;
 let quantity = parseInt(Settings.PasswordSettings.quantity, 10);
 
 let CreatePassword = (chars: string, length: number) => {
