@@ -12,7 +12,7 @@ let CreateKey = (chars: string, Segments: number) => {
     for (let i = 1; i <= Segments; i++) {   
         for (let j = 1; j <= chatsbetweentrimm + 1; j++) {
             let randomnum = Math.floor(Math.random() * chars.length);
-            j <= chatsbetweentrimm ? key = key.concat(chars[randomnum]) : key = key.concat(Dash)
+            j <= chatsbetweentrimm ? key = key.concat(chars[randomnum]) : key = key.concat(dash)
         }          
     }
     key.endsWith("-") ? key = key.slice(0, -1) : null;
