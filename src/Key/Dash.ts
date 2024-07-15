@@ -1,6 +1,6 @@
 import { Settings } from "../../.vscode/Settings.json";
 
-let Dash = Settings.KeySettings.TrimmSymbols.dash
+let dash = Settings.KeySettings.TrimmSymbols.dash
 let Segments = parseInt(Settings.KeySettings.Segments);
 let chatsbetweentrimm = parseInt(Settings.KeySettings.Charsbetweentrimm)
 let chars = Settings.KeySettings.chars.upper + parseInt(Settings.KeySettings.chars.num, 10);
