@@ -15,7 +15,7 @@ let CreatePassword = (AllChars: string, length: number) => {
         let randomnum = Math.floor(Math.random() * AllChars.length)
         password = password.concat(AllChars[randomnum])
     }
-    console.log(password)
+    console.log(`Strongest: ${password}`)
 }
 
 for (let i = 1; i <= S.quantity; i++) {
