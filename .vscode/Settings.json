@@ -12,8 +12,8 @@
         },
         "KeySettings": {
             "quantity": "5",
-            "Charsbetweentrimm": "10",
-            "Segments": "10", 
+            "Charsbetweentrimm": "5",
+            "Segments": "5", 
             "TrimmSymbols": {
                 "dash": "-",
                 "colon": ":"
